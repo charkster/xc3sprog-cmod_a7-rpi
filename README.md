@@ -5,7 +5,7 @@ This version of xc3sprog is needed to program the SPI flash memory on the CMOD-A
 
 sudo apt-get install libftdi1
 
-Next the SPI memory needs to be detected. Use the "run_first_spi_flash_cmod_a7.sh" script (which uses the "first.bit" file). Now you are ready to load your custom bit file into the CMOD-A7.
+Next the SPI memory needs to be detected. Use the "run_first_spi_flash_cmod_a7.sh" script (which uses the "first.bit" file). The "first.bit" file was created specifically for the CMOD-A7 SPI flash memory (a complicated process done on Vivado using a trivial design). Now you are ready to load your custom bit file into the CMOD-A7.
 
 xc3sprog -c jtaghs1_fast -I your_custom_file.bit
 
