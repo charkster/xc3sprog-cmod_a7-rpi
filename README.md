@@ -1,5 +1,5 @@
 # xc3sprog-cmod_a7-rpi
-Xc3sprog compiled for Raspberry Pi with support for Numonyx (Micron) N25Q 0x16 memory which is on the Cmod-A7 FPGA board. It can be installed in /usr/local/bin
+Xc3sprog compiled for Raspberry Pi OS with support for Numonyx (Micron) N25Q 0x16 memory which is on the Cmod-A7 FPGA board. It can be installed in /usr/local/bin
 
 This version of xc3sprog is needed to program the SPI flash memory on the CMOD-A7 board. If you want to only program the FPGA (volitle memory) then the Raspberry Pi OS repository version of xc3sprog is sufficient (no need to use my version). First install the FTDI driver library (from the Raspberry Pi OS repository).
 
